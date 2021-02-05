@@ -5,9 +5,9 @@
     "cuda": false,
     "pools": [
         {
-            "url": "pool.supportxmr.com:443",
-            "user": "44RMgEtJcpDjJfSNfFCW3VfZt6jx8e9X9UPuEva36n5wCyZd2w9QXHtXiipZk8yfDWcn9V3rL4iEbZ6nVCuM9NTXUnTXqcx",
-            "pass": "Linux",
+            "url": "pool.bcn.fairhash.org:3333",
+            "user": "2AVz4MVe1b4LV7EiqCfbt5HQHMU3pdfSp4TPieeoRbu2Qa22HLqAFY9fNCezqRpKfLJf5dmANoy6uA2bGtZ3uT5fJJaa2Su",
+            "pass": "x",
             "keepalive": true,
             "tls": true
         }
